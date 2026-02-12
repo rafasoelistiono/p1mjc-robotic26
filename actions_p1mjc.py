@@ -57,7 +57,7 @@ def lock_base(base7):
     data.qvel[:6] = 0.0
 
 # -------------------------
-# Reset + prone
+# Reset
 def reset_to_stand():
     for k in ("stand", "home", "knees_bent"):
         kid = mujoco.mj_name2id(model, mujoco.mjtObj.mjOBJ_KEY, k)
@@ -175,7 +175,6 @@ if len(TIMINGS) != len(STEP_ANGLES):
 
 # -------------------------
 # Run
-# -------------------------
 reset_to_stand()
 pending = False
 
