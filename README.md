@@ -44,7 +44,7 @@ Gunakan referensi ini untuk:
 [<img src="https://oss-global-cdn.unitree.com/static/244cd5c4f823495fbfb67ef08f56aa33.GIF" width="960px">](https://oss-global-cdn.unitree.com/static/5aa48535ffd641e2932c0ba45c8e7854.mp4)
 ---
 
-## 3. Implementasi yang Diharapkan (Struktur Umum)
+## 3. Implementasi yang Diharapkan
 
 ### Transisi Berdiri (0.10 → 0.14)
 
