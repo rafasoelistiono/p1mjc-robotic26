@@ -35,9 +35,9 @@ def interpolate_pose(start_pose, target_pose, progress):
 Gunakan referensi ini untuk:
 
 * **transisi berdiri** 
-    - Stand transition: `stand_transition.mp4`
+    - Stand transition: `stand_transition.gif`
 
-[<img src="stand_transition.GIF" width="960px">](stand_transition.mp4)
+[<img src="stand_transition.GIF" width="960px">](stand_transition.gif)
 * **ritme langkah berjalan**
     - Walking pose : `walking_pose.mp4`
 
