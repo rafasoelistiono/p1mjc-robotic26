@@ -37,7 +37,7 @@ Gunakan referensi ini untuk:
 * **transisi berdiri** 
     - Stand transition: `stand_transition.gif`
 
-[<img src="stand_transition.GIF" width="960px">](stand_transition.gif)
+[<img src="stand_transition.gif" width="960px">](stand_transition.gif)
 * **ritme langkah berjalan**
     - Walking pose : `walking_pose.mp4`
 
