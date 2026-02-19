@@ -1,4 +1,4 @@
-# P2MJC Notes (MuJoCo Unitree G1) — Progress 2
+# P1MJC Notes (MuJoCo Unitree G1) — Progress 2
 
 Progress ini melanjutkan fondasi Progress 1, tapi fokusnya sekarang adalah **transisi berdiri** dan **jalan (0.11 → 0.23)**. Target akhir: **robot bisa berdiri dan berjalan**.
 
