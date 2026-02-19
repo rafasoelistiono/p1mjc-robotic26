@@ -18,3 +18,8 @@ for i in range(model.nu):
     trn_jnt = int(model.actuator_trnid[i, 0])
     jname = mujoco.mj_id2name(model, mujoco.mjtObj.mjOBJ_JOINT, trn_jnt) if trn_jnt >= 0 else None
     print(i, name, "-> joint:", jname)
+
+print("=== BODIES ===")
+for i in range(model.nbody):
+    name = mujoco.mj_id2name(model, mujoco.mjtObj.mjOBJ_BODY, i)
+    print(i, name)
