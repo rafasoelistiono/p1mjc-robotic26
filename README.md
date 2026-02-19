@@ -37,21 +37,11 @@ Gunakan referensi ini untuk:
 * **transisi berdiri** 
     - Stand transition: `stand_transition.mp4`
 
-```html
-<video controls width="720">
-  <source src="stand_transition.mp4" type="video/mp4">
-  Browser kamu tidak mendukung tag video.
-</video>
-```
+[<img src="stand_transition.GIF" width="960px">](stand_transition.mp4)
 * **ritme langkah berjalan**
     - Walking pose : `walking_pose.mp4`
 
-```html
-<video controls width="720">
-  <source src="walking_pose.mp4" type="video/mp4">
-  Browser kamu tidak mendukung tag video.
-</video>
-```
+[<img src="https://oss-global-cdn.unitree.com/static/244cd5c4f823495fbfb67ef08f56aa33.GIF" width="960px">](https://oss-global-cdn.unitree.com/static/5aa48535ffd641e2932c0ba45c8e7854.mp4)
 ---
 
 ## 3. Implementasi yang Diharapkan (Struktur Umum)
@@ -92,9 +82,9 @@ goto(viewer, LEFT_FOOT_DOWN,     0.20, label="w_08_L_down")
 
 Output minimal yang diharapkan:
 
-* bisa melakukan **transisi berdiri** pada `0.10 – 0.15`
+* bisa melakukan **transisi berdiri** pada `0.10 – 0.14`
 * robot **berdiri stabil** 
-* robot **berjalan** (langkah maju kanan kiri)
+* robot **berjalan** (langkah maju kanan kiri) (2 langkah)
 
 > Hint : output diatas tidak perlu mirip seperti pada video namun diharapkan untuk bisa melanjutkan progress sebelumnya + melakukan aktivitas bangun lalu berdiri + berjalan
 
